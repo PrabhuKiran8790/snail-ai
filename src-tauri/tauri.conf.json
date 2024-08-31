@@ -1,0 +1,35 @@
+{
+  "productName": "snail-ai",
+  "version": "0.0.0",
+  "identifier": "snail-ai-svelte-tauri",
+  "build": {
+    "beforeDevCommand": "pnpm dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "pnpm build",
+    "frontendDist": "../build"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "snail-ai",
+        "width": 1280,
+        "height": 720,
+        "minWidth": 1280,
+        "minHeight": 720,
+        "theme": "Dark"
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/128.png",
+      "icons/icon.icns",
+      "icons/128.ico"
+    ]
+  }
+}
