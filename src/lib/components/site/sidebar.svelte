@@ -5,7 +5,10 @@
   import { Logo } from "../icons";
 </script>
 
-<div class="bg-secondary/50 flex flex-col h-full w-20 border-r py-2">
+<div
+  class="bg-secondary/50 flex flex-col h-full w-20 border-r py-2 pt-8"
+  data-tauri-drag-region
+>
   <div class="flex flex-col gap-2 px-2">
     <div class="flex flex-col items-center gap-2 p-2">
       <Logo class="size-9" />

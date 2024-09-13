@@ -18,6 +18,7 @@
   <TailwindIndicator />
 {/if} -->
 <div class="flex flex-col min-h-screen overflow-hidden fixed h-full w-full">
+  <!-- <div class="h-10 bg-secondary/50" data-tauri-drag-region></div> -->
   <div class="flex flex-1 overflow-hidden">
     <Sidebar />
     <main class="flex-1 overflow-hidden bg-secondary/50 h-full">
