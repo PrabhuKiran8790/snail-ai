@@ -9,6 +9,7 @@
     "frontendDist": "../build"
   },
   "app": {
+    "withGlobalTauri": true,
     "windows": [
       {
         "title": "snail-ai",
@@ -16,7 +17,9 @@
         "height": 720,
         "minWidth": 1280,
         "minHeight": 720,
-        "theme": "Dark"
+        "theme": "Dark",
+        "titleBarStyle": "Overlay",
+        "hiddenTitle": true
       }
     ],
     "security": {
@@ -27,9 +30,8 @@
     "active": true,
     "targets": "all",
     "icon": [
-      "icons/128.png",
-      "icons/icon.icns",
-      "icons/128.ico"
+      "icons/app-ico.icns",
+      "icons/1024.ico"
     ]
   }
 }
